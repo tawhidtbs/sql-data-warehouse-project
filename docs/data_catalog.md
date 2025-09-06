@@ -23,8 +23,8 @@ It consists of dimension tables and fact tables for specific business metrics.
 |create_date  	|DATE		      	|The date and time when the customer record was created in the system
 
 ### 2. gold.dim_products
-    	• Purpose: Provides information about the products and their attributes
-    	• Columns:
+    • Purpose: Provides information about the products and their attributes
+    • Columns:
 |Column Name    |Data Type		  |Description																			                                              		  |
 |---------------|---------------|-----------------------------------------------------------------------------------------------------|
 |product_key	  |INT		        |Surrogate key uniquely identifying each product record in the product dimension table.
@@ -40,9 +40,9 @@ It consists of dimension tables and fact tables for specific business metrics.
 |start_date		  |DATE 		    	|The date when the product became available for sale or use, stored in
 
 ### 3. gold.fact_sales
-    	• Purpose: Stores transactional sales data for analytical purposes.
-    	• Columns:
-|Column Name    |Data Type		|Description																						                                                |
+   	• Purpose: Stores transactional sales data for analytical purposes.
+   	• Columns:
+|Column Name    |Data Type		|Description		    								                                                |
 |---------------|---------------|-----------------------------------------------------------------------------------------------------|
 |order_number	  |NVARCHAR(50)	  |A unique alphanumeric identifier for each sales order (e.g., ‘SO54496’)
 |product_key   	|INT			      |Surrogate key linking the order to the product dimension table.
