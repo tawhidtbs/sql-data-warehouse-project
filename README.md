@@ -83,6 +83,11 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 └── README.md                           # Project overview and instructions
 ```
+---
+
+## 🛡️ License
+
+This course is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 
 ## About Me
